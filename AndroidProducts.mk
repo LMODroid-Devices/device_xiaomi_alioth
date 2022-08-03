@@ -1,6 +1,5 @@
 #
 # Copyright (C) 2021 The LineageOS Project
-# Copyright (C) 2022 The LibreMobileOS Foundation
 #
 # SPDX-License-Identifier: Apache-2.0
 #

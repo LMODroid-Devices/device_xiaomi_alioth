@@ -1,6 +1,5 @@
 #
 # Copyright (C) 2021 The LineageOS Project
-# Copyright (C) 2022 The LibreMobileOS Foundation
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -8,16 +7,13 @@
 # A/B
 TARGET_IS_VAB := true
 
-# Audio
-TARGET_ENABLE_AUDIO_ULL := true
-
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lmodroid
+    $(LOCAL_PATH)/overlay-lineage
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
