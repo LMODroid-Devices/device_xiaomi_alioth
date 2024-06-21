@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lmodroid_alioth.mk
-
-COMMON_LUNCH_CHOICES := \
-    lmodroid_alioth-user \
-    lmodroid_alioth-userdebug \
-    lmodroid_alioth-eng
